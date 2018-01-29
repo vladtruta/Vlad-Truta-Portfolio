@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Portfolio - Vlad Truta</title>
+
+  <!-- CSS -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/portfolio.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+  <!-- FavIcons -->
+  <link rel="icon" type="image/png" href="images/favicon/favicon_16.png" sizes="16x16">  
+  <link rel="icon" type="image/png" href="images/favicon/favicon_32.png" sizes="32x32">  
+  <link rel="icon" type="image/png" href="images/favicon/favicon_96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="images/favicon/favicon_128.png" sizes="128x128">  
+  <link rel="icon" type="image/png" href="images/favicon/favicon_196.png" sizes="196x196">  
+  <link rel="icon" type="image/png" href="images/favicon/favicon_228.png" sizes="228x228">
+
+  <!-- FavIcons iOS -->
+  <link rel="apple-touch-icon" href="images/favicon/older-iPhone.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/iPhone-6-Plus.png">  
+  <link rel="apple-touch-icon" sizes="152x152" href="images/favicon/iPad-Retina.png">  
+  <link rel="apple-touch-icon" sizes="167x167" href="images/favicon/iPad-Pro.png">
+
+</head>
+<body>
+    <nav class="nav-extended green">      
+      <div class="nav-wrapper container">
+        <a href="index.html" class="brand-logo black-text">Vlad Truta</a>
+        <a href="#" data-activates="slide-out" class="button-collapse black-text"><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="index.html" class="black-text">About</a></li>          
+          <li class="active"><a href="#!" class="white-text">Portfolio</a></li>
+        </ul>
+        <ul id="slide-out" class="side-nav">
+          <li>
+            <div class="user-view">
+              <div class="background">
+                <img id="sidenav_image" src="images/sidenav_background_day.jpg" width="400">
+              </div>
+              <a href="#!" style="cursor:default"><img class="circle" style="cursor:help" id="navbar_avatar" src="images/avatars_small/anon.png" onclick="changeAvatar()"></a>              
+              <br><br>
+            </div>
+          </li>
+          <li><a class="subheader">Pages</a></li>
+          <li><a href="index.html">About</a></li>
+          <li><a class="amber accent-1" href="#!">Portfolio</a></li>
+          <li><a class="subheader">Connect</a></li>
+          <li><a href="https://github.com/vladtruta" class="waves-effect" target="_blank"><i class="fa fa-github left" aria-hidden="true"></i>GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/vlad-truta/" class="waves-effect" target="_blank"><i class="fa fa-linkedin-square left" aria-hidden="true"></i>LinkedIn</a></li>         
+          <li><a href="http://play.google.com/store/apps/dev?id=4803452454586793639" class="waves-effect" target="_blank"><i class="fa fa-gamepad left" aria-hidden="true"></i>Google Play</a></li>
+          <li><div class="divider"></div></li>
+          <li><a class="subheader">Email</a></li>
+          <li><a href="mailto:vladtruta@icloud.com?Subject=Website message from <name>" class="waves-effect"><i class="fa fa-apple left" aria-hidden="true"></i>vladtruta@icloud.com</a></li>
+          <li><a href="mailto:tankbirdgames@gmail.com?Subject=Website message from <name>" class="waves-effect"><i class="fa fa-google left" aria-hidden="true"></i>tankbirdgames@gmail.com</a></li>           
+        </ul>
+      </div>
+
+      <div class="nav-content">
+        <div class="container">
+          <ul class="tabs tabs-transparent tabs-fixed-width">
+            <li class="tab"><a class="active waves-effect" href="#work">Work</a></li>
+            <li class="tab"><a href="#hackathons" class="waves-effect">Hackathons</a></li>
+            <li class="tab"><a href="#trainings" class="waves-effect">Trainings</a></li>
+          </ul>
+        </div>
+      </div>
+
+    </nav>
+    <!-- Dropdown Structure -->
+    <ul id="portfolio_menu" class="dropdown-content">
+      <li><a href="#!">Work</a></li>
+      <li class="divider"></li>
+      <li><a href="#!">Hackathons</a></li>      
+      <li><a href="#!">Trainings</a></li>
+    </ul>
+  <div class="row" style="padding-top:15px;">
+    <div id="work" class="col s12">
+      <div class="row">
+        <div class="container">
+          <blockquote>
+            Click the cards for more information. The cards are scrollable.
+          </blockquote>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action large hoverable">
+            <div class="card-image waves-effect waves-block waves-light" id="rabitind">
+              <img class="activator logo" src="images/featured/rabitind_featured.png">              
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Rabitind<i class="material-icons right">more_vert</i></span>
+              <p>Website of our Family Business</p>              
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Rabitind<i class="material-icons right">close</i></span>
+              <p>Rabitind is a Diesel Engine Repair Service. The company was founded in 2001, and has since seen local success.</p>
+              <p><em>We specialise in Diagnose and Repair of Common Rail Injectors and Injection Pumps.</em></p>
+              <p><em>We also have a large variety of oils, batteries, antifreeze, belts and many more, for sale.</em></p>
+              <p><em>You can find us on <a href="http://rabitind.truta.ro/locatie/" target="_blank">Google Maps</a>.</em></p>
+              <p><em>For more information, check our <a href="rabitind.truta.ro" target="_blank">website</a>.</em></p>
+            </div>
+            <div class="card-action">              
+              <a href="http://rabitind.truta.ro" target="_blank" class="right">Visit Website</a>              
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action large hoverable" id="gces">
+            <div class="card-image waves-effect waves-block waves-light" id="gces">
+              <img class="activator logo" src="images/featured/gces_featured.png" >
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Student-in-Service Calendar Generator<i class="material-icons right">more_vert</i></span>
+              <p>Don't worry about dirty blackboards anymore!</p>
+              <br>
+              <p>Final Project for my High School CS Class</p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Student-in-Service Calendar Generator<i class="material-icons right">close</i></span>
+              <p>The <em>Student-in-Service</em> is a very common concept in Romanian schools. Basically, the students who are in service that day, are the ones responsible with cleaning the blackboards and keeping the classroom clean and tidy.</p>
+              <p>This app does just that! You insert the students in any order you wish, either from the software built-in menus or from an external text file, and it automatically generates an Excel Spreadsheet on a set period of time, in a real calendar (usually it’s best to set full months).
+              </p>
+              <p>I developed it in order to fix a common problem we had in our classroom. Every month, someone had to create a spreadsheet with all the students, so we would know who is going to be the one in service that day. And they had to re-write this spreadsheet over and over, every month, in order to keep the correct rotation of the students.</p>                                  
+            </div>
+            <div class="card-action">
+              <a href="exe/Student-in-Service-Calendar-Generator.zip" class="left">Download</a>        
+              <a href="https://github.com/vladtruta/Student-in-Service-Calendar-Generator" class="right" target="_blank">View Code</a>
+            </div>
+          </div>
+        </div>  
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action large hoverable">
+            <div class="card-image waves-effect waves-block waves-light" id="largonji">
+              <img class="activator logo" src="images/featured/largonji_featured.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Largonji<i class="material-icons right">more_vert</i></span>
+              <p>Decode words and learn the long-lost French jargon!</p>
+              <br>
+              <p>Winner of the <strong>2nd Place</strong> at the Third Edition of <a href="http://premiilecfa.ro/previous-winners" target="_blank">Prix&nbspCFA</a></p>                          
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Largonji<i class="material-icons right">close</i></span>
+              <p>This game was made for the <a href="http://premiilecfa.ro/previous-winners" target="_blank">Prix&nbspCFA</a> Contest, Third Edition.</p>
+              <p><em>Largonji</em> is a derivative of the French jargon louchébem. The louchébem word-creation process resembles that of verlan, and javanais, in that existing words are camouflaged according to a set of rules.</p>
+              <p><em>Largonji</em> substitutes ⟨l⟩ for the consonant or consonant cluster at the beginning of the word, or, if the word begins with an ⟨l⟩ or a vowel, the second syllable; the initial consonant is then reattached to the end of the word along with a suffix particular to the argot: -ji [ʒi], -oc [ɔk], -ic [ik], -uche [yʃ], -ès [ɛs], or in the case of louchébem, -em/ème</p>
+              <p>The word database is very big, and the cool thing about it is that it's hosted on my server. Everytime the game is launched, an API will keep it up to date.</p>
+              <p>The game also has an option in which you can suggest new words to be added to the list. Facebook Integration is there, but still has some issues.</p>
+            </div>
+            <div class="card-action">
+              <a class="left" href="https://play.google.com/store/apps/details?id=com.tankbird.Largonji&hl=en" target="_blank">Play Store</a>              
+              <!-- <a href="#" class="right">View Code</a> -->
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action large hoverable">
+            <div class="card-image waves-effect waves-block waves-light" id="moveon">
+              <img class="activator logo" src="images/featured/moveon_featured.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">MoveOn<i class="material-icons right">more_vert</i></span>
+              <p>Is your meeting room empty?</p>
+              <br>
+              <p>Web-App Prototype from the <strong>HackSociety</strong> Hackathon (using Raspberry Pi's and Motion Sensors)</p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">MoveOn<i class="material-icons right">close</i></span>
+              <p>This is the Web-App we coded at <strong>HackSociety</strong>.</p>              
+              <p>It can detect whether a room is full or empty, using motion sensors, as well as distance sensors.</p>
+              <p>Each room would have one Raspberry Pi, which has sensors connected to it. There is a central server, that gathers information from all connected Pi boards, processes the information, and sends it to a website, which displays the output in a user-friendly format (that is, there's a color which changes from red to green, depending on whether each room is empty or full).</p>
+              <p>The status will update every few seconds.</p>              
+            </div>
+            <div class="card-action">
+              <a href="https://github.com/vladtruta/MoveOn" class="right" target="_blank">View Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action large hoverable">
+            <div class="card-image waves-effect waves-block waves-light" id="woofer">
+              <img class="activator logo" src="images/featured/woofer_featured.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Woofer<i class="material-icons right">more_vert</i></span>
+              <p>Help dogs with pedigree to continue their legacy</p>
+              <br>
+              <p>Web-App Prototype from the <strong>PoliHack&nbspv6</strong> Hackathon</p>              
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Woofer<i class="material-icons right">close</i></span>
+              <p>This is the web-application we created for the <strong>PoliHack&nbspv6</strong> Hackathon.</p>
+              <p>It is an online platform which facilitates mating of purebreed dogs.</p>
+              <p>We used Machine Learning in order to detect dog breeds. This acts as a way to facilitate the process, and also as a security measure.</p>
+              <p>The web-application has a nice landing page (which I created), an option to Register/Login (it has Firebase integration), and an option to search for possible matches.</p>
+            </div>
+            <div class="card-action">              
+              <a href="https://github.com/vladtruta/Woofer" target="_blank" class="right">View Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action large hoverable">
+            <div class="card-image waves-effect waves-block waves-light" id="goalkeeper">
+              <img class="activator logo" src="images/featured/goalkeeper_featured.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Goal-Keeper<i class="material-icons right">more_vert</i></span>
+              <p>Keep track of your life Goals and Aspirations</p>
+              <br>
+              <p>Desktop Application Prototype from the <strong>PoliHack&nbspv4</strong> Hackathon</p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Goal-Keeper<i class="material-icons right">close</i></span>
+              <p><em>Goal-Keeper</em> is a Prototype for a Desktop Application, which helps you organize your schedule and achieve a life goal.</p> 
+              <p>The purpose of the app is to help you analyze the amount of work, as well as the free time you will have, if you spend a set amount of hours a day. That way, you will be able to know, in a few weeks, or months time (longer or shorter, depending on how long achieving your goal will take), how much work/free time you will have each day. It also has a database in which you can set mementos, based on a built-in calendar.</p>
+              <p>The work/free-time ratio is set using a slider, and the information is displayed right away, showing the advantage, as well as the trade-off in time, that you have by choosing that particular ratio.</p> 
+            </div>
+            <div class="card-action">              
+              <a href="exe/Goal-Keeper.zip" class="left">Download</a>
+              <!-- <a href="#" class="right">View Code</a> -->
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action large hoverable">
+            <div class="card-image waves-effect waves-block waves-light" id="magneteria">
+              <img class="activator logo" src="images/featured/magneteria_featured.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Magneteria<i class="material-icons right">more_vert</i></span>
+              <p>The game's plot has politics in it. Only found out after I finished work.</p>
+              <br>
+              <p>A small game made for an Indian Game Designer's <a href="https://www.youtube.com/watch?v=fkBhEPwIBuk" target="_blank">Final&nbspCollege&nbspProject</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Magneteria<i class="material-icons right">close</i></span>
+              <p>Magneteria is a project I did for a friend from India, <a href="https://www.youtube.com/watch?v=fkBhEPwIBuk" target="_blank">Brijesh&nbspTiwari, who was a student at <em>Game Design & Development</em> at <em>ICAT Design & Media College</em></a>. He was in his final year, and so he had to design a game based on some given standards. I was responsible with the coding and implementation.</p>
+              <p>Brijesh gave me the assets (the maps, the character sprite sheets, and the music), a very well-written document explaining the game’s mechanics and how it should work. My job was to code a game out of that. I didn’t get any help with the code, nor the engine whatsoever.</p>
+              <p>Magneteria is a simple game prototype, in which your goal is to advance through levels, by lock-picking doors, solving small puzzle-based tasks, avoiding the guards, which move back and forth, and also avoiding security cameras.</p>
+            </div>
+            <div class="card-action">
+              <a href="exe/Magneteria.zip" class="left">Download</a>              
+              <a href="https://github.com/vladtruta/Magneteria" class="right" target="_blank">View Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action large hoverable">
+            <div class="card-image waves-effect waves-block waves-light" id="voice-invoice">
+              <img class="activator logo" src="images/featured/voice-invoice_featured.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Mobile VoiceInvoice<i class="material-icons right">more_vert</i></span>
+              <p>Use your voice to fill invoices!</p>
+              <br>
+              <p>Android App Prototype from the <strong>MegaHack&nbsp2016</strong> Hackathon</p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Mobile VoiceInvoice<i class="material-icons right">close</i></span>
+              <p>This is the VoiceInvoice app prototype that we built for <em>Life&nbspis&nbspHard</em> at the <strong>TechFest MegaHack</strong> hackathon. It generates an invoice using voice command.</p>
+              <p>The application is easy to understand. It starts with an interface made up of input fields. Periodically, you will hear a beep. It usually happens every few seconds, though it does not have a set interval.</p>
+              <p>Right after the beep, you say a voice command. All voice commands start with “okay”, in order to distinguish a voice command from regular text.</p>
+              <p>We implemented a few voice commands for navigation, such as “okay next”, or “okay back”, and others for text processing.</p>
+            </div>
+            <div class="card-action">              
+              <!-- <a href="#" class="right">View Code</a> -->
+              <a href="exe/MobileVoiceInvoice.zip" class="left">Download</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action large hoverable">
+            <div class="card-image waves-effect waves-block waves-light" id="mytrademarket">
+              <img class="activator logo" src="images/featured/mytrademarket_featured.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">MyTradeMarket<i class="material-icons right">more_vert</i></span>
+              <p>Your own private trade market!</p>
+              <br>
+              <p>Desktop Application Prototype from the <strong>PoliHack&nbspv3</strong> Hackathon</p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">MyTradeMarket<i class="material-icons right">close</i></span>
+              <p>MyTradeMarket is the app we created for the <strong>PoliHack&nbspv3</strong> hackathon.</p>
+              <p>MyTradeMarket is a private trade room prototype app. Just like private chat rooms, where you connect via IP address, our idea was to create the same thing, but oriented towards the selling/buying of products, and done privately.</p>
+              <p>The advantage of this is that you don’t have to enter your credentials on any website in order to sell your products. Just add them into your private store, and give your customers your IP address, and they will connect and be able to see your products. We thought that this idea would help those who want to sell products in a hassle-free environment that doesn’t spy nor track buyers and sellers.</p>
+              <p>The application was developed to work with Bitcoin, however it can be extended to work with about any type of currency.</p>            
+            </div>
+            <div class="card-action">
+              <!-- <a href="#" class="left">Download</a>        -->
+              <a href="https://github.com/vladtruta/MyTradeMarket" class="right" target="_blank">View Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action large hoverable">
+            <div class="card-image waves-effect waves-block waves-light" id="metaldent">
+              <img class="activator logo" src="images/featured/metaldent_featured.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Metaldent<i class="material-icons right">more_vert</i></span>
+              <p>Website for a Dental Technician</p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Metaldent<i class="material-icons right">close</i></span>
+              <p>This is a website I created for someone. I did it for free. The person I made the site for is a dental technician, so he needed a simple but useful website which people could use in order to contact him.</p>
+              <p>
+              He had a website in the past, but it was awful and 80% of the images and links were broken. Mobile support was non-existent. I saw it and quickly realized I could do something to help him. And so I did. And I did it for free, just because I wanted him to get rid of that awful website he had before. And because this was one of my first projects I did for somebody else.</p>
+              <p>The page contains all sorts of useful stuff: contact data, a Google Maps link of his HQ, a few photos of his past work and his tools in a slideshow, and last but not least, mobile support!</p>
+            </div>
+            <div class="card-action">
+              <a href="http://metaldent.ro" target="_blank" class="right">Visit Website</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action large hoverable">
+            <div class="card-image waves-effect waves-block waves-light" id="memorizo">
+              <img class="activator logo" src="images/featured/memorizo_featured.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Memorizo<i class="material-icons right">more_vert</i></span>
+              <p>A Rebuild of the classic Memory Blocks game</p>
+              <br>
+              <p>One-Day Game Development Challenge</p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Memorizo<i class="material-icons right">close</i></span>
+              <p><em>Memorizo</em> is a game I created by challenging myself to build it in one single day.</p>
+              <p>It is a reboot of the classic <em>Memory Blocks</em> game.</p>
+              <p>The rules are simple: find the matching pictures and finish the board in the shortest time possible. There are 3 levels of difficulty, each of them increasing the number of picture pairs on the board.</p>             
+            </div>
+            <div class="card-action">
+              <a class="left" href="https://play.google.com/store/apps/details?id=com.Tankbird.Memorizo&hl=en" target="_blank">Play Store</a>
+              <a href="https://github.com/vladtruta/Memorizo" class="right" target="_blank">View Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action large hoverable">
+            <div class="card-image waves-effect waves-block" id="delight">
+              <img class="activator logo" src="images/featured/delight_featured.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">DeLight<i class="material-icons right">more_vert</i></span>
+              <p>The title is a pun</p>
+              <br>
+              <p>My first game on Google Play</p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">DeLight<i class="material-icons right">close</i></span>
+              <p><em>DeLight</em> is my first attempt to make an Android app.</p>
+              <p>It was created in the autumn of 2014.</p>
+              <p>Its rules are very simple. Turn off the lightbulbs (<em>DeLight</em>&nbspthem) by tapping on them, and get the highest score.</p>
+              <p>There are 3 game modes, each of them offering a unique type of gameplay.</p>
+            </div>
+            <div class="card-action">
+              <a class="left" href="https://play.google.com/store/apps/details?id=com.Tankbird.DeLightFree&hl=en" target="_blank">Play Store</a>               
+              <a href="https://github.com/vladtruta/DeLight" class="right" target="_blank">View Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action large hoverable">
+            <div class="card-image waves-effect waves-block waves-light" id="timber">
+              <img class="activator logo" src="images/featured/timber_featured.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Timber!<i class="material-icons right">more_vert</i></span>
+              <p>Before <em>that</em> dating app became popular <a href="images/hipster.jpg" target="_blank">#hipster</a> (it has nothing to do with it, though)</p>
+              <br>
+              <p>Project for the Psychology Class</p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Timber!<i class="material-icons right">close</i></span>
+              <p>Although its name is very similar to a popular dating application, it has nothing to do with it.</p>
+              <p><em>Timber!</em> is a small game I've done for a Psychology project. It uses physics to simulate real-world object properties.</p>
+              <p>The purpose of the game is to fit each shape into its corresponding place. To do this, you are able to use different types of slopes, funnels, and even elevators.</p>
+              <p>It is a short game, but the levels' difficulty increases drastically as you progress.</p>
+            </div>
+            <div class="card-action">
+              <a class="left" href="https://play.google.com/store/apps/details?id=com.Tankbird.Timber&hl=en" target="_blank">Play Store</a>              
+              <!-- <a href="#" class="right">View Code</a> -->
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action large hoverable">
+            <div class="card-image waves-effect waves-block" id="quizfrancais">
+              <img class="activator logo" src="images/featured/quizfrancais_featured.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Le Quiz Français<i class="material-icons right">more_vert</i></span>
+              <p>Ce n'est pas très bien traduit</p>
+              <br>
+              <p>Quiz App for Francophonie Day</p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Le Quiz Français<i class="material-icons right">close</i></span>
+              <p>A quiz game I created, to celebrate Francophonie Day at school.</p>
+              <p>The application will ask different questions about the history of France. At the end, it will show you which answers were right and which were wrong, as well as give you a final grade.</p>
+            </div>
+            <div class="card-action">
+              <a class="left" href="https://play.google.com/store/apps/details?id=com.Tankbird.LeQuizFrancais&hl=en" target="_blank">Play Store</a>              
+              <a href="https://github.com/vladtruta/Le-Quiz-Francais" class="right" target="_blank">View Code</a>
+            </div>
+          </div>
+        </div>      
+      </div>
+    </div>
+    <div id="hackathons" class="col s12">
+      <div class="row">
+        <div class="container">
+          <blockquote>
+            Click the cards for more information. The cards are scrollable.
+          </blockquote>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action medium hoverable">
+            <div class="card-image waves-effect waves-block waves-light" id="polihack6">
+              <img class="activator logo" src="images/featured/polihack6_featured.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">PoliHack v6<i class="material-icons right">more_vert</i></span>
+              <p>Still going strong!</p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">PoliHack v6<i class="material-icons right">close</i></span>
+              <p>In the autumn of 2017, I also went to PoliHack&nbspv6.</p>
+              <p>This time, my team and I chose to participate in the Animal/Vet Section.</p>
+              <p>My teammates had a bright idea, and that was to create an online platform which facilitates mating of purebreed dogs.</p>
+              <p>We used Machine Learning in order to detect dog breeds. This acts as a way to facilitate the process, and also as a security measure.</p>
+              <p>The web-application has a nice landing page (which I created), an option to Register/Login (it has Firebase integration), and an option to search for possible matches.</p>              
+            </div>
+            <div class="card-action">
+              <a href="https://github.com/vladtruta/Woofer" target="_blank" class="right">View Code</a>
+            </div>
+          </div>
+        </div>  
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action medium hoverable">
+            <div class="card-image waves-effect waves-block waves-light" id="hacksociety">
+              <img class="activator logo" src="images/featured/hacksociety_featured.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">HackSociety<i class="material-icons right">more_vert</i></span>
+              <p>Hardware Programming 101</p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">HackSociety<i class="material-icons right">close</i></span>
+              <p>I had the opportunity to attend, in the autumn of 2017, to a hackathon that was based on hardware programming.</p>
+              <p>We were each given a Raspberry Pi, a bag of sensors and lots of wires. There were three different tasks for each team. Our task was to detect whether a room is full or empty, using motion sensors, as well as distance sensors. We had 24 hours to create something functional.</p>
+              <p>So we came up with a simple, yet useful prototype. Each room would have one Raspberry Pi, which has sensors connected to it. There is a central server, that gathers information from all connected Pi boards, processes the information, and sends it to a website, which displays the output in a user-friendly format (that is, there's a color which changes from red to green, depending on whether each room is empty or full).</p>
+              <p>There were a few obstacles we had to overcome, but we managed to deliver a nice proof of concept. This was my first time coding on a Raspberry Pi.</p>
+            </div>
+            <div class="card-action">              
+              <a href="https://github.com/vladtruta/MoveOn" class="right" target="_blank">View Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action medium hoverable">
+            <div class="card-image waves-effect waves-block waves-light" id="megahack">
+              <img class="activator logo" src="images/featured/megahack_featured.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">MegaHack 2016<i class="material-icons right">more_vert</i></span>
+              <p>I met some awesome people!</p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">MegaHack&nbsp2016<i class="material-icons right">close</i></span>
+              <p>At this hackathon, the theme was not fixed from the start. There were several companies, each of them bringing their own, different ideas. What they were trying to achieve was finding the right people to make their ideas a reality.</p>
+              <p>After running around, brainstorming and asking for advice here and there, we finally decided to team up with <em>Life&nbspIs&nbspHard</em>. The title of the theme brought by them was <em>Mobile&nbspVoiceInvoice</em>.</p>
+              <p>Basically, they needed a prototype for an Android app which fills an invoice, using voice command.</p>
+              <p>So we came up with a prototype, which you can find on GitHub by clicking <strong>View Code</strong> below. It's just a prototype we had only 48 hours to do, but overall it was a pretty awesome experience.</p>
+            </div>
+            <div class="card-action">              
+              <!-- <a href="#" class="right">View Code</a> -->
+              <a href="exe/MobileVoiceInvoice.zip" class="left">Download</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action medium hoverable">
+            <div class="card-image waves-effect waves-block waves-light" id="polihack4">
+              <img class="activator logo" src="images/featured/polihack4_featured.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">PoliHack v4<i class="material-icons right">more_vert</i></span>
+              <p>Particularly Special</p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">PoliHack v4<i class="material-icons right">close</i></span>
+              <p>This was my fourth hackathon, and its theme was eHealth.</p>
+              <p>
+              We decided to develop a C#/Desktop app which helps you organize your schedule and achieve a goal, which can be anything you wish. The purpose of the app is to help you analyze the amount of work, as well as the free time you will have, if you spend a set amount of hours a day. That way, you will be able to know, in a few weeks, or months time (longer or shorter, depending on how long achieving your goal will take), how much work/free time you will have each day. It also has a database in which you can set mementos, based on a built-in calendar.</p>
+              <p>
+              Of course, this app is a prototype as well. At pitching, we were criticized for its complexity and lack of simplicity.</p>
+              <p>But we learnt a valuable lesson from this: <strong>what</strong> you build is always more important than <strong>how</strong> you build it.</p>
+            </div>
+            <div class="card-action">              
+              <!-- <a href="#" class="right">View Code</a> -->
+              <a href="exe/Goal-Keeper.zip" class="left">Download</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card medium hoverable">
+            <div class="card-image waves-effect waves-block" id="techsylvania">
+              <img class="activator logo" src="images/featured/techsylvania_featured.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Techsylvania 2016<i class="material-icons right">more_vert</i></span>
+              <p>Mark Shuttleworth uses an iPhone!?</p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Techsylvania 2016<i class="material-icons right">close</i></span>
+              <p>With the winning of <em>PoliHack v3.0 Junior</em> section, our team won a free invitation to <em>Techsylvania</em>.</p>
+              <p>It was more centered towards building apps using embedded devices and gadgets such as Oculus Rift, TheEyeTribe Eye Tracker, Leap Motion or Drones. Unfortunately, we did not have enough experience working with those cool gadgets, however we had a chance to test them all out.</p>
+              <p>However, I had the honor to meet Mr. Mark Shuttleworth, CEO of Canonical (who apparently had an iPhone), as well as one of his acolyte geeks, the Linux-Guru Zygmunt "zyga" Krynicki. He helped us set up a Raspberry Pi.</p>
+              <p>Overall, it was really nice. We were given the opportunity to attend for free, an otherwise paid event, and we loved it.</p>
+            </div>            
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action medium hoverable">
+            <div class="card-image waves-effect waves-block waves-light" id="polihack3">
+              <img class="activator logo" src="images/featured/polihack3_featured.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">PoliHack v3<i class="material-icons right">more_vert</i></span>
+              <p>Beginner's Luck</p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">PoliHack v3<i class="material-icons right">close</i></span>
+              <p>This was the first hackathon I ever attended.</p>              
+              <p>The theme was about building software related to e-commerce and online transactions. So, we thought of creating a private trade room. Just like private chat rooms, where you connect via IP address, our idea was to create the same thing, but oriented towards the selling/buying of products.</p>
+              <p>The advantage of this is that you don’t have to enter your credentials on any website in order to sell your products. Just add them into your private store, and give your customers your IP address, and they will connect and be able to see your products. We thought that this idea would help those who want to sell products in a hassle-free environment that doesn’t spy nor track buyers and sellers.</p>     
+              <p>Of course, it was a hackathon, so the application was, and still is, a prototype.</p>
+            </div>
+            <div class="card-action">              
+              <a href="https://github.com/vladtruta/MyTradeMarket" class="right" target="_blank">View Code</a>
+            </div>
+          </div>
+        </div>      
+      </div>
+    </div>
+    <div id="trainings" class="col s12">
+      <div class="row">
+        <div class="container">
+          <blockquote>
+            Click the cards for more information. The cards are scrollable.
+          </blockquote>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action medium hoverable">
+            <div class="card-image waves-effect waves-block" id="academyplus2017">
+              <img class="activator logo" src="images/featured/academyplus2017_featured.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Academy+Plus 2017<i class="material-icons right">more_vert</i></span>
+              <p>Continuing where I left off</p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Academy+Plus 2017<i class="material-icons right">close</i></span>
+              <p>I restarted my studies at <em>Academy+Plus</em>, after a break in which I had to prepare for my regular school exams.</p>
+              <p>I got to work on several, very interesting projects that are based on coding algorithms, as well as the Unix OS (ex:&nbspparsing Standard Output using Shell commands).</p>
+              <p>I had the opportunity to meet even more awesome, smart people. I am always happy to share my ideas with them, and I also have a lot to learn from them. The <em>Academy+Plus</em> community is very friendly and helpful, and also very determined to get things done efficiently.</p>
+              <p>I am happy to be a part of this local guild of geeks.</p>
+            </div>
+            <div class="card-action">
+              <a href="https://www.academyplus.ro" target="_blank" class="right">About Academy+Plus</a>
+            </div>
+          </div>
+        </div>  
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action medium hoverable">
+            <div class="card-image waves-effect waves-block waves-light" id="tapptitude">
+              <img class="activator logo" src="images/featured/tapptitude_featured.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Tapptitude<i class="material-icons right">more_vert</i></span>
+              <p>Google Keep was <strong>not</strong> coded in just one night!</p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Tapptitude<i class="material-icons right">close</i></span>
+              <p>I took an Android Development Internship at Tapptitude, in the summer of 2016. The people working there were kind, and helpful when I needed it the most.</p>
+              <p>During the Internship we were given a task, to create a note-keeping application, just like Google Keep. We started small, with a simple Login/Register menu, and then we kept adding features to it.</p>
+              <p>Many of the things I had to work with were entirely new for me, so I learnt lots of valuable concepts, such as: Version Control, XML, Material Design and Database Integration.</p>
+              <p>Also, there were times when we were taken to the meeting room and were shown a more theoretical approach of the concepts that we were about to learn, and this was especially the case of Git and its branching system.</p>              
+            </div>
+            <div class="card-action">
+              <a href="https://tapptitude.com" target="_blank" class="right">About Tapptitude</a>              
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action medium hoverable">
+            <div class="card-image waves-effect waves-block waves-light" id="academyplus2015">
+              <img class="activator logo" src="images/featured/academyplus2015_featured.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Academy+Plus 2015<i class="material-icons right">more_vert</i></span>
+              <p>Target Practice with Unix, Shell and C</p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Academy+Plus 2015<i class="material-icons right">close</i></span>
+              <p>I attended the one-month <em>piscine</em> in August 2015. During that time, I practiced coding algorithms from scratch in C, as well as learning how to use Unix and its Shell.</p>
+              <p>Each day we were given another set of assignments, which we had to complete until the next evening.</p>
+              <p>There were also group projects we had to do, a few individual projects, and exams.</p>
+              <p>My experience at <em>Academy+Plus</em> motivated me to go forward and start attending other hackathons and trainings.</p>
+            </div>
+            <div class="card-action">
+              <a href="https://www.academyplus.ro" target="_blank" class="right">About Academy+Plus</a>
+            </div>
+          </div>
+        </div>    
+      </div>
+    </div>    
+  </div>
+  
+  <!-- Footer -->
+  <footer class="page-footer grey darken-1">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="amber-text text-accent-1">Email</h5>            
+            <ul class="collection black-text" id="mail-collection">
+              <li class="collection-item avatar">
+                <img src="images/contact/icloud_mail_icon.png" alt="iCloud icon" class="circle">
+                <span class="title">Vlad Truta</span>
+                <br><br>
+                <a href="mailto:vladtruta@icloud.com?Subject=Website message from <name>">vladtruta@icloud.com</a>
+                <a href="mailto:vladtruta@icloud.com?Subject=Website message from <name>" class="secondary-content btn-floating waves-effect waves-orange amber accent-1"><i class="material-icons black-text">send</i></a>
+              </li>
+              <li class="collection-item avatar">
+                <img src="images/contact/gmail_mail_icon.png" alt="Gmail icon" class="circle">
+                <span class="title">Tankbird Games</span>
+                <br><br>
+                <a href="mailto:tankbirdgames@gmail.com?Subject=Website message from <name>">tankbirdgames@gmail.com</a>
+                <a href="mailto:tankbirdgames@gmail.com?Subject=Website message from <name>" class="secondary-content btn-floating waves-effect waves-orange amber accent-1"><i class="material-icons black-text">send</i></a>
+              </li>              
+            </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="amber-text text-accent-1">Pages</h5>
+           <div class="collection" id="page-collection">
+            <a href="index.html" class="collection-item black-text center">About</a>            
+            <a href="#!" class="collection-item black-text center active amber accent-1">Portfolio</a>            
+          </div>          
+        </div>
+        <div class="col l3 s12">
+          <h5 class="amber-text text-accent-1">Connect</h5>
+          <ul>
+            <br>
+            <li><a class="white-text" href="https://github.com/vladtruta" target="_blank"><img src="images/contact/github_findus.png" width="150" alt="All the projects are hosted on GitHub"></a></li>
+            <br>
+            <li><a class="white-text" href="https://www.linkedin.com/in/vlad-truta/" target="_blank"><img src="images/contact/linkedin_findus.png" width="150" alt="My LinkedIn profile"></a></li>
+            <br>
+            <!-- <li><a class="white-text" href="https://www.facebook.com/vlad98truta" target="_blank"><img src="images/facebook_findus.png" width="150" alt="Find me on Facebook"></a></li>
+            <br> -->            
+            <li><a class="white-text" href="http://play.google.com/store/apps/dev?id=4803452454586793639" target="_blank"><img src="images/contact/googleplay_findus.png" width="150" alt="Check our apps on Google Play"></a></li>            
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="fixed-action-btn toolbar">
+      <a class="btn-floating btn-large amber accent-1">
+        <i class="large material-icons black-text">info_outline</i>
+      </a>
+      <ul>        
+        <li class="waves-effect waves-orange"><a href="http://play.google.com/store/apps/dev?id=4803452454586793639" target="_blank"><i class="fa fa-gamepad green-text small" aria-hidden="false"></i></a></li>        
+        <li class="waves-effect waves-orange"><a href="https://www.linkedin.com/in/vlad-truta/" target="_blank"><i class="fa fa-linkedin-square blue-text small" aria-hidden="false"></i></a></li>
+        <li class="waves-effect waves-orange"><a href="https://github.com/vladtruta" target="_blank"><i class="fa fa-github black-text small" aria-hidden="false"></i></a></li>
+        <li class="waves-effect waves-orange"><a href="#!" id="up_button_footer"><i class="fa fa-angle-up black-text small" aria-hidden="false"></i></a></li>
+      </ul>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        Key-crafted by <strong>Vlad Truta</strong>, <em>With a Little Help from My Friends</em> @<a class="amber-text text-accent-1" href="http://materializecss.com" target="_blank">Materialize</a>, under <a class="amber-text text-accent-1" href="LICENSE" target="_blank">GNU GPLv3</a> (<a href="https://github.com/vladtruta/Vlad-Truta-Portfolio" class="red-text" target="_blank">source code</a>).
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <script src="js/upbutton.js"></script>
+  <script src="js/avatar.js"></script>
+  <script src="js/navimage.js"></script>
+
+</body>
+</html>

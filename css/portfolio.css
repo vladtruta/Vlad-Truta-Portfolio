@@ -1,0 +1,116 @@
+.nav-content .tabs .tab a{
+    color:rgba(0,0,0,0.5);
+}
+
+.nav-content .tabs .tab a:hover{
+	color:black;
+}
+
+.nav-content .tabs .tab a.active {
+	color:black;
+}
+
+.nav-content .tabs .indicator {
+	background-color:#ffe57f;
+}
+
+.logo {
+	height: 250px;
+	object-fit: contain;
+}
+
+.card-reveal img {
+	width: 100%;
+}
+
+#rabitind .logo{	
+	background-color: #a8322b;
+}
+
+#metaldent .logo {	
+	background-color: #4cabba;
+}
+
+#voice-invoice .logo {	
+	background-color: #00cc99;
+}
+
+#gces .logo {
+	background-color: #993333;
+}
+
+#memorizo .logo {
+	background-color: #363636;
+}
+
+#largonji .logo {
+	background-color: #4f2801;
+}
+
+#magneteria .logo {
+	background-color: black;
+}
+
+#delight .logo {
+	background-color: #d9de40;
+}
+
+#quizfrancais .logo {
+	background-color: #ffffff;
+}
+
+#timber .logo {
+	background-color: #670909;
+}
+
+#polihack4 .logo {
+	background-color: #3b3c37;
+}
+
+#polihack3 .logo {
+	background-color: #551527;
+}
+
+#woofer .logo {
+	background-color: #58758D;
+}
+
+#goalkeeper .logo {
+	background-color: #184f32;
+}
+
+#moveon .logo {
+	background-color: #560012;
+}
+
+#mytrademarket .logo {
+	background-color: #503a26;
+}
+
+#megahack .logo {
+	background: #0e4365;
+}
+
+#polihack6 .logo {
+	background-color: #d83440;
+}
+
+#hacksociety .logo {
+	background: #013c4b;
+}
+
+#techsylvania .logo {
+	background: #ffffff;
+}
+
+#tapptitude .logo {
+	background: #422161;
+}
+
+#academyplus2015 .logo {
+	background: #000000;
+}
+
+#academyplus2017 .logo {
+	background: #ffffff;
+}
