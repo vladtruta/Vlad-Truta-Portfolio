@@ -4,11 +4,15 @@ $(document).ready(function(){
 	console.log(currentTime);
 	var imagePath = "images/sidenav_background";
 	var timeOfDay = "_day"; 
-	if ((currentTime >= 0 && currentTime <= 8) || (currentTime >= 20 && currentTime <= 23)) {
+	if (currentTime >= 8 && currentTime <= 10) {
+		timeOfDay = "_dawn";
+	} else if (currentTime >= 19 && currentTime <= 21) {
+		timeOfDay = "_dusk";
+	} else if ((currentTime >= 22 && currentTime <= 23) || (currentTime >= 0 && currentTime <= 7)) {
 		timeOfDay = "_night";
 	} else {
 		timeOfDay = "_day";
 	}
 
-	document.getElementById('sidenav_image').src = "images/sidenav_background" + timeOfDay + ".jpg";
+	document.getElementById('sidenav_image').src = imagePath + timeOfDay + ".png";
 });
