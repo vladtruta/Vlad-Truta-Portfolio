@@ -4,11 +4,11 @@ $(document).ready(function(){
 	console.log(currentTime);
 	var imagePath = "images/sidenav_background";
 	var timeOfDay = "_day"; 
-	if (currentTime >= 8 && currentTime <= 10) {
+	if (currentTime >= 8 && currentTime <= 9) {
 		timeOfDay = "_dawn";
-	} else if (currentTime >= 19 && currentTime <= 21) {
+	} else if (currentTime >= 19 && currentTime <= 20) {
 		timeOfDay = "_dusk";
-	} else if ((currentTime >= 22 && currentTime <= 23) || (currentTime >= 0 && currentTime <= 7)) {
+	} else if ((currentTime >= 21 && currentTime <= 23) || (currentTime >= 0 && currentTime <= 7)) {
 		timeOfDay = "_night";
 	} else {
 		timeOfDay = "_day";
