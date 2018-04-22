@@ -107,7 +107,7 @@
               <p>We have also implemented warning notifications, in case that sensors read data which is over/under certain limits (specified by the user).</p>
               <p>We designed the product with ease of use in mind. Before monitoring a system, you have to pair it with the Solaria App. To do this, you can either use Bluetooth Low Energy for a one-tap pairing solution, or you can enter the system's Access Code manually (a code which is located on a sticker, on the actual Arduino chip).</p>
               <p>Since we needed real-time monitoring and interaction, Firebase was the best choice for us. From the Firebase platform, we used: Firebase Realtime Database (in order to
-              store the crucial pieces of data the app depends on), Firebase Google Authentication (to implement an easy and straightforward login flow) and, last but not least, Firebase Admin (to send notifications containing warnings, in case that sensor values go off limits).</p>
+              store the crucial pieces of data the app depends on), Firebase Google Authentication (to implement an easy and straightforward login flow) and, last but not least, Firebase Cloud Messaging (to send notifications containing warnings, in case that sensor values go off limits).</p>
             </div>
             <div class="card-action">
               <a href="exe/Solaria.zip" class="left">Download</a>        
