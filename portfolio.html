@@ -89,6 +89,34 @@
         </div>
         <div class="col s12 m6 l4">
           <div class="card sticky-action large hoverable">
+            <div class="card-image waves-effect waves-block waves-light" id="solaria">
+              <img class="activator logo" src="images/featured/solaria_featured.png">              
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Solaria Hydroponics<i class="material-icons right">more_vert</i></span>
+              <p><em>Agriculture for the 21st Century</em></p>
+              <br>
+              <p>Android application of the larger Solaria project we presented at <strong>Innovation Labs 2018</strong></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Solaria<i class="material-icons right">close</i></span>
+              <p>Solaria Hydroponics was our idea for <strong>Innovation Labs 2018</strong>.</p>
+              <p>Solaria offers an automated hydroponic agriculture kit that's easy to use, stays connected to the Internet and can be monitored/controlled remotely, at any time.</p>
+              <p>It consists of a hardware part (Raspberry Pi, Arduino and different sensors), a Web Application and an Android App. I was the one responsible for developing the Android App.</p>
+              <p>You have access to real-time status of the plants in your systems (you can have as many systems as you wish), as well as the option to turn on/off the artificial light for each one.</p>
+              <p>We have also implemented warning notifications, in case that sensors read data which is over/under certain limits (specified by the user).</p>
+              <p>We designed the product with ease of use in mind. Before monitoring a system, you have to pair it with the Solaria App. To do this, you can either use Bluetooth Low Energy for a one-tap pairing solution, or you can enter the system's Access Code manually (a code which is located on a sticker, on the actual Arduino chip).</p>
+              <p>Since we needed real-time monitoring and interaction, Firebase was the best choice for us. From the Firebase platform, we used: Firebase Realtime Database (in order to
+              store the crucial pieces of data the app depends on), Firebase Google Authentication (to implement an easy and straightforward login flow) and, last but not least, Firebase Admin (to send notifications containing warnings, in case that sensor values go off limits).</p>
+            </div>
+            <div class="card-action">
+              <a href="exe/Solaria.zip" class="left">Download</a>        
+              <a href="https://github.com/vladtruta/Solaria-Android" class="right" target="_blank">View Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card sticky-action large hoverable">
             <div class="card-image waves-effect waves-block waves-light" id="rabitind">
               <img class="activator logo" src="images/featured/rabitind_featured.png">              
             </div>
